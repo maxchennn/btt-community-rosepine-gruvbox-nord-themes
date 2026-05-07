@@ -2,6 +2,8 @@
 
 Custom-crafted **Gruvbox**, **Nord**, and **Rosé Pine** themes for the btt.community forum.
 
+[ Turkish / Türkçe ](README.md)
+
 ---
 
 ## 📸 Preview
