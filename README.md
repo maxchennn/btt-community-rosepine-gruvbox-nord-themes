@@ -2,6 +2,8 @@
 
 btt.community  için özel olarak hazırlanmış **Gruvbox**, **Nord** ve **Rosé Pine** temaları.
 
+[English](README-en.md)
+
 ---
 
 ## 📸 Önizleme
