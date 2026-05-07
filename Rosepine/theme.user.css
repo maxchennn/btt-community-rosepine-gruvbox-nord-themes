@@ -1,0 +1,48 @@
+
+
+/* ==UserStyle==
+@name           BTT Community Rosé Pine Theme
+@version        1.0.0
+@namespace      https://userstyles.world/user/maxchennn
+@description    Elegant Rosé Pine aesthetic for btt.community.
+@author         maxchennn
+@license        GPL3
+==/UserStyle== */
+
+@-moz-document domain("btt.community") {
+    html:has(meta[data-color-scheme-is-dark="true"]) {
+        --primary: #e0def4;
+        --secondary: #191724;
+        --tertiary: #9ccfd8;
+        --quaternary: #f6c177;
+        --header_background: #1f1d2e;
+        --highlight: #ebbcba;
+        --success: #31748f;
+        --danger: #eb6f92;
+        --love: #c4a7e7;
+        --d-selected: #2a273f;
+        --d-hover: #393552;
+    }
+
+    .topic-owner span.username {
+        background-color: var(--tertiary) !important;
+        color: var(--secondary) !important;
+        border-radius: 4px;
+        padding: 2px 6px;
+    }
+
+    .sidebar-section-link-prefix {
+        color: var(--quaternary) !important;
+    }
+
+    code {
+        background-color: var(--d-selected);
+        color: var(--primary);
+    }
+
+    .nav-pills > li > a.active {
+        background-color: var(--tertiary);
+        color: var(--secondary);
+    }
+}
+

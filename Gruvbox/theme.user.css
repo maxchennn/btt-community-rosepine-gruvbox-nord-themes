@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name           BTT Community Gruvbox Theme
+@version        1.0.0
+@namespace      https://userstyles.world/user/maxchennn
+@description    Retro Gruvbox aesthetic for btt.community.
+@author         maxchennn
+@license        GPL3
+==/UserStyle== */
+
+@-moz-document domain("btt.community") {
+    html:has(meta[data-color-scheme-is-dark="true"]) {
+        --primary: #d4be98;
+        --secondary: #1d2021;
+        --tertiary: #7daea3;
+        --quaternary: #d8a657;
+        --header_background: #282828;
+        --highlight: #e78a4e;
+        --success: #a9b665;
+        --danger: #ea6962;
+        --love: #d3869b;
+        --d-selected: #32302f;
+        --d-hover: #3c3836;
+    }
+
+    .topic-owner span.username {
+        background-color: var(--tertiary) !important;
+        color: var(--secondary) !important;
+        border-radius: 4px;
+        padding: 2px 6px;
+    }
+
+    .sidebar-section-link-prefix {
+        color: var(--quaternary) !important;
+    }
+
+    code {
+        background-color: var(--d-selected);
+        color: var(--primary);
+    }
+
+    .nav-pills > li > a.active {
+        background-color: var(--tertiary);
+        color: var(--secondary);
+    }
+}
